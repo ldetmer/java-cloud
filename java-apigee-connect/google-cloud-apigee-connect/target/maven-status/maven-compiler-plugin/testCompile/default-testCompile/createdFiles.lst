@@ -1,0 +1,8 @@
+com/google/cloud/apigeeconnect/v1/MockTether.class
+com/google/cloud/apigeeconnect/v1/MockTetherImpl$1.class
+com/google/cloud/apigeeconnect/v1/ConnectionServiceClientTest.class
+com/google/cloud/apigeeconnect/v1/ConnectionServiceClientHttpJsonTest.class
+com/google/cloud/apigeeconnect/v1/MockTetherImpl.class
+com/google/cloud/apigeeconnect/v1/MockConnectionService.class
+com/google/cloud/apigeeconnect/v1/MockConnectionServiceImpl.class
+com/google/cloud/apigeeconnect/v1/TetherClientTest.class
