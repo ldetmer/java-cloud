@@ -1,7 +1,0 @@
-/Users/ldetmer/workspace/java-cloud/java-apigee-connect/google-cloud-apigee-connect/src/test/java/com/google/cloud/apigeeconnect/v1/ConnectionServiceClientHttpJsonTest.java
-/Users/ldetmer/workspace/java-cloud/java-apigee-connect/google-cloud-apigee-connect/src/test/java/com/google/cloud/apigeeconnect/v1/ConnectionServiceClientTest.java
-/Users/ldetmer/workspace/java-cloud/java-apigee-connect/google-cloud-apigee-connect/src/test/java/com/google/cloud/apigeeconnect/v1/MockConnectionService.java
-/Users/ldetmer/workspace/java-cloud/java-apigee-connect/google-cloud-apigee-connect/src/test/java/com/google/cloud/apigeeconnect/v1/MockConnectionServiceImpl.java
-/Users/ldetmer/workspace/java-cloud/java-apigee-connect/google-cloud-apigee-connect/src/test/java/com/google/cloud/apigeeconnect/v1/MockTether.java
-/Users/ldetmer/workspace/java-cloud/java-apigee-connect/google-cloud-apigee-connect/src/test/java/com/google/cloud/apigeeconnect/v1/MockTetherImpl.java
-/Users/ldetmer/workspace/java-cloud/java-apigee-connect/google-cloud-apigee-connect/src/test/java/com/google/cloud/apigeeconnect/v1/TetherClientTest.java
