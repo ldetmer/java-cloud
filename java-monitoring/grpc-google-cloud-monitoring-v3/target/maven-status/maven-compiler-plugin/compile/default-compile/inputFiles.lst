@@ -1,8 +1,8 @@
-/Users/ldetmer/workspace/google-cloud-java/java-monitoring/grpc-google-cloud-monitoring-v3/src/main/java/com/google/monitoring/v3/AlertPolicyServiceGrpc.java
-/Users/ldetmer/workspace/google-cloud-java/java-monitoring/grpc-google-cloud-monitoring-v3/src/main/java/com/google/monitoring/v3/GroupServiceGrpc.java
-/Users/ldetmer/workspace/google-cloud-java/java-monitoring/grpc-google-cloud-monitoring-v3/src/main/java/com/google/monitoring/v3/MetricServiceGrpc.java
-/Users/ldetmer/workspace/google-cloud-java/java-monitoring/grpc-google-cloud-monitoring-v3/src/main/java/com/google/monitoring/v3/NotificationChannelServiceGrpc.java
-/Users/ldetmer/workspace/google-cloud-java/java-monitoring/grpc-google-cloud-monitoring-v3/src/main/java/com/google/monitoring/v3/QueryServiceGrpc.java
-/Users/ldetmer/workspace/google-cloud-java/java-monitoring/grpc-google-cloud-monitoring-v3/src/main/java/com/google/monitoring/v3/ServiceMonitoringServiceGrpc.java
-/Users/ldetmer/workspace/google-cloud-java/java-monitoring/grpc-google-cloud-monitoring-v3/src/main/java/com/google/monitoring/v3/SnoozeServiceGrpc.java
-/Users/ldetmer/workspace/google-cloud-java/java-monitoring/grpc-google-cloud-monitoring-v3/src/main/java/com/google/monitoring/v3/UptimeCheckServiceGrpc.java
+/Users/ldetmer/workspace/java-cloud/java-monitoring/grpc-google-cloud-monitoring-v3/src/main/java/com/google/monitoring/v3/AlertPolicyServiceGrpc.java
+/Users/ldetmer/workspace/java-cloud/java-monitoring/grpc-google-cloud-monitoring-v3/src/main/java/com/google/monitoring/v3/GroupServiceGrpc.java
+/Users/ldetmer/workspace/java-cloud/java-monitoring/grpc-google-cloud-monitoring-v3/src/main/java/com/google/monitoring/v3/MetricServiceGrpc.java
+/Users/ldetmer/workspace/java-cloud/java-monitoring/grpc-google-cloud-monitoring-v3/src/main/java/com/google/monitoring/v3/NotificationChannelServiceGrpc.java
+/Users/ldetmer/workspace/java-cloud/java-monitoring/grpc-google-cloud-monitoring-v3/src/main/java/com/google/monitoring/v3/QueryServiceGrpc.java
+/Users/ldetmer/workspace/java-cloud/java-monitoring/grpc-google-cloud-monitoring-v3/src/main/java/com/google/monitoring/v3/ServiceMonitoringServiceGrpc.java
+/Users/ldetmer/workspace/java-cloud/java-monitoring/grpc-google-cloud-monitoring-v3/src/main/java/com/google/monitoring/v3/SnoozeServiceGrpc.java
+/Users/ldetmer/workspace/java-cloud/java-monitoring/grpc-google-cloud-monitoring-v3/src/main/java/com/google/monitoring/v3/UptimeCheckServiceGrpc.java

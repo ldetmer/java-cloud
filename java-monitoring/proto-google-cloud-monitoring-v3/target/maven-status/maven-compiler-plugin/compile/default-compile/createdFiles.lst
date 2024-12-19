@@ -14,7 +14,6 @@ com/google/monitoring/v3/GetServiceRequestOrBuilder.class
 com/google/monitoring/v3/ListSnoozesResponseOrBuilder.class
 com/google/monitoring/v3/SendNotificationChannelVerificationCodeRequestOrBuilder.class
 com/google/monitoring/v3/UptimeCheckConfig$HttpCheck$ResponseStatusCode$Builder.class
-com/google/monitoring/v3/BasicSli$2.class
 com/google/monitoring/v3/MutationRecord.class
 com/google/monitoring/v3/Service$IstioCanonicalService$Builder.class
 com/google/monitoring/v3/SyntheticMonitorTarget$CloudFunctionV2Target.class
@@ -36,7 +35,6 @@ com/google/monitoring/v3/FolderName$Builder.class
 com/google/monitoring/v3/RequestBasedSli.class
 com/google/monitoring/v3/Service$GkeNamespace$Builder.class
 com/google/monitoring/v3/ListAlertPoliciesResponse.class
-com/google/monitoring/v3/SyntheticMonitorTarget$2.class
 com/google/monitoring/v3/DeleteServiceLevelObjectiveRequest.class
 com/google/monitoring/v3/AlertPolicy$Condition$PrometheusQueryLanguageCondition$Builder.class
 com/google/monitoring/v3/SendNotificationChannelVerificationCodeRequest$1.class
@@ -45,7 +43,6 @@ com/google/monitoring/v3/UptimeCheckConfig$PingConfig.class
 com/google/monitoring/v3/WindowsBasedSli$MetricRange$Builder.class
 com/google/monitoring/v3/ListTimeSeriesResponse.class
 com/google/monitoring/v3/Service$GkeWorkloadOrBuilder.class
-com/google/monitoring/v3/UptimeCheckConfig$3.class
 com/google/monitoring/v3/TimeSeriesRatio$Builder.class
 com/google/monitoring/v3/GetAlertPolicyRequest.class
 com/google/monitoring/v3/CreateUptimeCheckConfigRequest.class
@@ -74,7 +71,6 @@ com/google/monitoring/v3/CreateTimeSeriesSummary$1.class
 com/google/monitoring/v3/WindowsBasedSli$1.class
 com/google/monitoring/v3/Aggregation$1.class
 com/google/monitoring/v3/AlertPolicy$Condition$Trigger.class
-com/google/monitoring/v3/Service$2.class
 com/google/monitoring/v3/DeleteServiceLevelObjectiveRequest$1.class
 com/google/monitoring/v3/UptimeCheckConfig$HttpCheck$ResponseStatusCodeOrBuilder.class
 com/google/monitoring/v3/UptimeCheckConfig$TcpCheck$Builder.class
@@ -128,7 +124,6 @@ com/google/monitoring/v3/ListTimeSeriesRequest$1.class
 com/google/monitoring/v3/NotificationChannel$LabelsDefaultEntryHolder.class
 com/google/monitoring/v3/DeleteNotificationChannelRequest$Builder.class
 com/google/monitoring/v3/CreateAlertPolicyRequestOrBuilder.class
-com/google/monitoring/v3/DroppedLabelsOuterClass$1.class
 com/google/monitoring/v3/Aggregation$Aligner$1.class
 com/google/monitoring/v3/Service$IstioCanonicalService.class
 com/google/monitoring/v3/ListNotificationChannelDescriptorsResponseOrBuilder.class
@@ -153,7 +148,6 @@ com/google/monitoring/v3/TimeSeriesData$PointData$Builder.class
 com/google/monitoring/v3/ListSnoozesRequest.class
 com/google/monitoring/v3/AlertPolicyName$Builder.class
 com/google/monitoring/v3/TimeSeriesDescriptor$ValueDescriptor$1.class
-com/google/monitoring/v3/ListGroupsRequest$2.class
 com/google/monitoring/v3/UptimeCheckConfig$HttpCheck$AuthMethodCase.class
 com/google/monitoring/v3/TypedValue$ValueCase.class
 com/google/monitoring/v3/Service$GkeNamespace.class
@@ -165,7 +159,6 @@ com/google/monitoring/v3/AlertPolicy$Condition$MetricAbsenceOrBuilder.class
 com/google/monitoring/v3/ListNotificationChannelsRequestOrBuilder.class
 com/google/monitoring/v3/TimeInterval$Builder.class
 com/google/monitoring/v3/ServiceLevelObjective$UserLabelsDefaultEntryHolder.class
-com/google/monitoring/v3/AlertPolicyConditionName.class
 com/google/monitoring/v3/Service$CloudRun$1.class
 com/google/monitoring/v3/CreateAlertPolicyRequest$1.class
 com/google/monitoring/v3/Range$Builder.class
@@ -196,7 +189,6 @@ com/google/monitoring/v3/TimeSeriesName$OrganizationTimeSeriesBuilder.class
 com/google/monitoring/v3/DeleteMetricDescriptorRequest$Builder.class
 com/google/monitoring/v3/TimeSeriesDescriptor.class
 com/google/monitoring/v3/ListServiceLevelObjectivesResponse$1.class
-com/google/monitoring/v3/DroppedLabelsOuterClass.class
 com/google/monitoring/v3/TimeSeries$1.class
 com/google/monitoring/v3/ListSnoozesRequestOrBuilder.class
 com/google/monitoring/v3/CreateTimeSeriesRequest$1.class
@@ -206,7 +198,6 @@ com/google/monitoring/v3/UptimeCheckConfig$ContentMatcher$JsonPathMatcher$JsonPa
 com/google/monitoring/v3/ListMetricDescriptorsResponse.class
 com/google/monitoring/v3/Service$UserLabelsDefaultEntryHolder.class
 com/google/monitoring/v3/UptimeCheckConfig$ResourceGroupOrBuilder.class
-com/google/monitoring/v3/LabelValue$2.class
 com/google/monitoring/v3/NotificationChannelDescriptorName.class
 com/google/monitoring/v3/Service$AppEngine.class
 com/google/monitoring/v3/BasicSli$LatencyCriteria.class
@@ -238,7 +229,6 @@ com/google/monitoring/v3/GetGroupRequest$Builder.class
 com/google/monitoring/v3/ListAlertPoliciesRequest$1.class
 com/google/monitoring/v3/UpdateUptimeCheckConfigRequestOrBuilder.class
 com/google/monitoring/v3/TimeSeriesDescriptor$ValueDescriptor.class
-com/google/monitoring/v3/AlertPolicyConditionName$Builder.class
 com/google/monitoring/v3/ListGroupMembersResponse$1.class
 com/google/monitoring/v3/UptimeCheckConfigName.class
 com/google/monitoring/v3/AlertProto.class
@@ -307,7 +297,6 @@ com/google/monitoring/v3/UptimeCheckConfig$HttpCheck$HeadersDefaultEntryHolder.c
 com/google/monitoring/v3/GetServiceLevelObjectiveRequest.class
 com/google/monitoring/v3/ListGroupsResponse.class
 com/google/monitoring/v3/UptimeCheckConfig$HttpCheck$ResponseStatusCode$1.class
-google/monitoring/v3/DroppedLabelsOuterClass$DroppedLabels.class
 com/google/monitoring/v3/TextLocator$Position.class
 com/google/monitoring/v3/GetGroupRequest$1.class
 com/google/monitoring/v3/AlertPolicy$Condition$EvaluationMissingData.class
@@ -428,7 +417,6 @@ com/google/monitoring/v3/BasicSli$AvailabilityCriteria$Builder.class
 com/google/monitoring/v3/ListUptimeCheckConfigsResponse$1.class
 com/google/monitoring/v3/ListAlertPoliciesRequestOrBuilder.class
 com/google/monitoring/v3/ListTimeSeriesResponse$1.class
-com/google/monitoring/v3/TypedValue$2.class
 com/google/monitoring/v3/NotificationChannel$Builder.class
 com/google/monitoring/v3/DroppedLabels$Builder.class
 com/google/monitoring/v3/ListUptimeCheckIpsRequest$1.class
@@ -438,7 +426,6 @@ com/google/monitoring/v3/Service$ClusterIstioOrBuilder.class
 com/google/monitoring/v3/AlertPolicy$DocumentationOrBuilder.class
 com/google/monitoring/v3/AlertPolicy$Builder.class
 com/google/monitoring/v3/MetricServiceProto.class
-com/google/monitoring/v3/AlertPolicy$2.class
 com/google/monitoring/v3/SyntheticMonitorTarget$Builder.class
 com/google/monitoring/v3/DroppedLabels.class
 com/google/monitoring/v3/TimeIntervalOrBuilder.class
@@ -499,7 +486,6 @@ com/google/monitoring/v3/UptimeCheckConfig$ContentMatcher$JsonPathMatcher.class
 com/google/monitoring/v3/ListNotificationChannelsResponse.class
 com/google/monitoring/v3/NotificationChannelOrBuilder.class
 com/google/monitoring/v3/ServiceName$OrganizationServiceBuilder.class
-google/monitoring/v3/DroppedLabelsOuterClass$DroppedLabels$1.class
 com/google/monitoring/v3/ListServicesRequest.class
 com/google/monitoring/v3/Service$CloudEndpoints$Builder.class
 com/google/monitoring/v3/AlertPolicy$AlertStrategyOrBuilder.class
@@ -514,7 +500,6 @@ com/google/monitoring/v3/ComparisonType$1.class
 com/google/monitoring/v3/NotificationChannelName$Builder.class
 com/google/monitoring/v3/UptimeCheckConfig$ContentMatcher$JsonPathMatcher$Builder.class
 com/google/monitoring/v3/AlertPolicy$AlertStrategy$NotificationChannelStrategy$Builder.class
-google/monitoring/v3/DroppedLabelsOuterClass.class
 com/google/monitoring/v3/GetNotificationChannelDescriptorRequestOrBuilder.class
 com/google/monitoring/v3/ServiceTier$1.class
 com/google/monitoring/v3/CreateNotificationChannelRequest$Builder.class
@@ -545,7 +530,6 @@ com/google/monitoring/v3/DistributionCutOrBuilder.class
 com/google/monitoring/v3/Snooze$Criteria.class
 com/google/monitoring/v3/CreateTimeSeriesSummary.class
 com/google/monitoring/v3/ListUptimeCheckIpsResponse$1.class
-com/google/monitoring/v3/AlertPolicyConditionName$1.class
 com/google/monitoring/v3/Service$GkeServiceOrBuilder.class
 com/google/monitoring/v3/Snooze$Builder.class
 com/google/monitoring/v3/AlertPolicy$Condition$PrometheusQueryLanguageCondition$LabelsDefaultEntryHolder.class
@@ -585,7 +569,6 @@ com/google/monitoring/v3/GetServiceLevelObjectiveRequestOrBuilder.class
 com/google/monitoring/v3/ListServicesRequest$Builder.class
 com/google/monitoring/v3/ServiceMonitoringProto.class
 com/google/monitoring/v3/BasicSli$LatencyCriteria$Builder.class
-google/monitoring/v3/DroppedLabelsOuterClass$DroppedLabels$Builder.class
 com/google/monitoring/v3/VerifyNotificationChannelRequest.class
 com/google/monitoring/v3/UptimeCheckIpOrBuilder.class
 com/google/monitoring/v3/Service$GkeNamespaceOrBuilder.class
@@ -593,7 +576,6 @@ com/google/monitoring/v3/AlertPolicy$AlertStrategy$NotificationChannelStrategyOr
 com/google/monitoring/v3/ListSnoozesRequest$1.class
 com/google/monitoring/v3/UpdateNotificationChannelRequestOrBuilder.class
 com/google/monitoring/v3/AlertPolicyName.class
-com/google/monitoring/v3/WindowsBasedSli$2.class
 com/google/monitoring/v3/ListMetricDescriptorsRequestOrBuilder.class
 com/google/monitoring/v3/ServiceLevelIndicator$1.class
 com/google/monitoring/v3/UptimeCheckConfig$HttpCheck$ServiceAgentAuthentication$ServiceAgentAuthenticationType.class
@@ -625,7 +607,6 @@ com/google/monitoring/v3/GetNotificationChannelVerificationCodeResponse.class
 com/google/monitoring/v3/GetUptimeCheckConfigRequestOrBuilder.class
 com/google/monitoring/v3/CreateTimeSeriesSummaryOrBuilder.class
 com/google/monitoring/v3/UptimeCheckConfig$ResourceGroup$Builder.class
-com/google/monitoring/v3/ServiceLevelIndicator$2.class
 com/google/monitoring/v3/QueryTimeSeriesRequest$Builder.class
 com/google/monitoring/v3/Group$1.class
 com/google/monitoring/v3/Service$ClusterIstio$Builder.class
@@ -633,7 +614,6 @@ com/google/monitoring/v3/QueryTimeSeriesResponseOrBuilder.class
 com/google/monitoring/v3/UptimeCheckConfig$TcpCheckOrBuilder.class
 com/google/monitoring/v3/AlertPolicy$Condition$MetricThreshold$1.class
 com/google/monitoring/v3/DeleteUptimeCheckConfigRequest$1.class
-google/monitoring/v3/DroppedLabelsOuterClass$DroppedLabels$LabelDefaultEntryHolder.class
 com/google/monitoring/v3/UptimeCheckConfig$1.class
 com/google/monitoring/v3/GetMetricDescriptorRequest.class
 com/google/monitoring/v3/DeleteServiceRequestOrBuilder.class
@@ -654,11 +634,9 @@ com/google/monitoring/v3/CreateSnoozeRequestOrBuilder.class
 com/google/monitoring/v3/DeleteNotificationChannelRequest$1.class
 com/google/monitoring/v3/TimeSeriesData$1.class
 com/google/monitoring/v3/UptimeCheckConfig$ContentMatcher$Builder.class
-google/monitoring/v3/DroppedLabelsOuterClass$DroppedLabelsOrBuilder.class
 com/google/monitoring/v3/TimeSeriesDescriptor$ValueDescriptor$Builder.class
 com/google/monitoring/v3/VerifyNotificationChannelRequest$Builder.class
 com/google/monitoring/v3/UptimeCheckConfig$ResourceCase.class
-com/google/monitoring/v3/ServiceLevelObjective$2.class
 com/google/monitoring/v3/ListAlertPoliciesResponse$1.class
 com/google/monitoring/v3/AlertPolicy$UserLabelsDefaultEntryHolder.class
 com/google/monitoring/v3/TypedValue$1.class
@@ -683,8 +661,6 @@ com/google/monitoring/v3/UpdateUptimeCheckConfigRequest$Builder.class
 com/google/monitoring/v3/BasicSliOrBuilder.class
 com/google/monitoring/v3/UptimeCheckConfig$HttpCheck$ServiceAgentAuthenticationOrBuilder.class
 com/google/monitoring/v3/ListUptimeCheckIpsResponse$Builder.class
-com/google/monitoring/v3/RequestBasedSli$2.class
-google/monitoring/v3/DroppedLabelsOuterClass$1.class
 com/google/monitoring/v3/WindowsBasedSli$PerformanceThreshold$1.class
 com/google/monitoring/v3/GetNotificationChannelRequest$1.class
 com/google/monitoring/v3/CreateServiceLevelObjectiveRequest$1.class

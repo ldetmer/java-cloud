@@ -22,7 +22,6 @@ com/google/cloud/apigeeconnect/v1/HttpRequest$Builder.class
 com/google/cloud/apigeeconnect/v1/Url$Builder.class
 com/google/cloud/apigeeconnect/v1/EgressRequestOrBuilder.class
 com/google/cloud/apigeeconnect/v1/EgressRequest$Builder.class
-com/google/cloud/apigeeconnect/v1/Payload$2.class
 com/google/cloud/apigeeconnect/v1/EgressResponseOrBuilder.class
 com/google/cloud/apigeeconnect/v1/ConnectionProto.class
 com/google/cloud/apigeeconnect/v1/TetherEndpoint$1.class
