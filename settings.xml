@@ -18,7 +18,15 @@
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xsi:schemaLocation="http://maven.apache.org/SETTINGS/1.0.0
                           https://maven.apache.org/xsd/settings-1.0.0.xsd">
+
+
   <mirrors>
+    <mirror>
+      <id>artifact-registry</id>
+      <name>Local proxy of central repo</name>
+      <url>artifactregistry://us-central1-maven.pkg.dev/ldetmer-sanbox/test-upload</url>
+      <mirrorOf>external:artifactregistry:*</mirrorOf>
+    </mirror>
     <mirror>
       <!-- Google's Maven Central mirror for Americas
        https://maven-central.storage.googleapis.com/index.html
