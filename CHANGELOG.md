@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.50.0](https://github.com/ldetmer/java-cloud/compare/v1.49.0...v1.50.0) (2024-12-23)
+
+
+### Features
+
+* Update ConnectionServiceClient.java ([6282b9a](https://github.com/ldetmer/java-cloud/commit/6282b9a145cca5605977c1d9c5de4f38d271d893))
+
 ## [1.47.0](https://github.com/googleapis/google-cloud-java/compare/v1.46.0...v1.47.0) (2024-10-28)
 
 
