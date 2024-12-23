@@ -21,6 +21,7 @@ merge_pr() {
       if jq -e '.mergeable' <<< "$response" > /dev/null; then
           curl -s -X PUT -H "Authorization: token $token" -H "Accept: application/vnd.github+json" "https://api.github.com/repos/$REPO/pulls/$pr_number/merge" > /dev/null
           echo "Merged PR #$pr_number"
+          break
       else
         echo "PR #$pr_number is not mergeable"
         sleep 60
