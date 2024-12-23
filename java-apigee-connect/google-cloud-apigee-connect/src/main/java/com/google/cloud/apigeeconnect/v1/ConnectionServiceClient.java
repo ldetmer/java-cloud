@@ -141,7 +141,6 @@ import javax.annotation.Generated;
  * }</pre>
  *
  * <p>Please refer to the GitHub repository's samples for more quickstart code snippets.
- * new doc information
  */
 @Generated("by gapic-generator-java")
 public class ConnectionServiceClient implements BackgroundResource {
