@@ -20,13 +20,13 @@ merge_pr() {
       # Check if the PR is mergeable
       if jq -e '.mergeable' <<< "$response" > /dev/null; then
           local merge_response=$(curl -s -X PUT -H "Authorization: token $token" -H "Accept: application/vnd.github+json" "https://api.github.com/repos/$REPO/pulls/$pr_number/merge" 2>&1)
-          if [[ "$merge_response" == *"message"* ]]; then
+          if [[ "$merge_response" == *"Pull Request successfully merged"* ]]; then
+            echo "Merged PR #$pr_number"
+            return 0
+          else
             echo "Error merging PR #$pr_number:"
             echo "$merge_response" | jq . 
             sleep 60
-          else
-            echo "Merged PR #$pr_number"
-            return 0
           fi
       else
         echo "PR #$pr_number is not mergeable"
