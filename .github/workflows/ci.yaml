@@ -8,7 +8,7 @@ on:
 
 jobs:
   build:
-
+    name: maven install
     runs-on: ubuntu-latest
 
     steps:
