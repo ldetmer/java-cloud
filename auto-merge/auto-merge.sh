@@ -12,27 +12,11 @@ get_release_prs() {
 }
 
 # Function to merge a PR
-merge_pr() {
+get_pr_link() {
     local pr_number=$1
     local token=$2
-    while true; do
-      local response=$(curl -s -H "Authorization: token $token" -H "Accept: application/vnd.github+json" "https://api.github.com/repos/$REPO/pulls/$pr_number")
-      # Check if the PR is mergeable
-      if jq -e '.mergeable' <<< "$response" > /dev/null; then
-          local merge_response=$(curl -s -X PUT -H "Authorization: token $token" -H "Accept: application/vnd.github+json" "https://api.github.com/repos/$REPO/pulls/$pr_number/merge" 2>&1)
-          if [[ "$merge_response" == *"Pull Request successfully merged"* ]]; then
-            echo "Merged PR #$pr_number"
-            return 0
-          else
-            echo "Error merging PR #$pr_number:"
-            echo "$merge_response" | jq . 
-            sleep 60
-          fi
-      else
-        echo "PR #$pr_number is not mergeable"
-        sleep 60
-      fi
-    done
+    _PR = "https://api.github.com/repos/$REPO/pulls/$pr_number"
+    ${_PR} = "https://api.github.com/repos/$REPO/pulls/$pr_number"
 }
 
 # Main script execution
@@ -46,5 +30,5 @@ release_prs=$(get_release_prs "$TOKEN")
 
 # Iterate over PR numbers and attempt to merge them
 for pr_number in $release_prs; do
-    merge_pr "$pr_number" "$TOKEN"
+    get_pr_link "$pr_number" "$TOKEN"
 done
