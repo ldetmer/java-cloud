@@ -19,7 +19,7 @@ merge_pr() {
       local response=$(curl -s -H "Authorization: token $token" -H "Accept: application/vnd.github+json" "https://api.github.com/repos/$REPO/pulls/$pr_number")
       # Check if the PR is mergeable
       if jq -e '.mergeable' <<< "$response" > /dev/null; then
-        _PR="https://api.github.com/repos/$REPO/pulls/$pr_number"
+        # _PR="https://api.github.com/repos/$REPO/pulls/$pr_number"
         echo "https://api.github.com/repos/$REPO/pulls/$pr_number"
       else
         echo "PR #$pr_number is not mergeable"
