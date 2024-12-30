@@ -19,10 +19,11 @@ check_pr_status() {
   PR_DATA=$(curl -s -H "Authorization: token $GITHUB_TOKEN" "$API_URL")
   if echo "$PR_DATA" | grep -q '"merged": true'; then
     echo "Pull request is merged."
-    return 0
+    return 1
   else
     echo "Pull request is not merged. Checking again in 60 seconds..."
     sleep 60
+    return 0
   fi
 }
 
