@@ -1,5 +1,44 @@
 # Changelog
 
+## [1.52.0](https://github.com/ldetmer/java-cloud/compare/v1.51.0...v1.52.0) (2024-12-30)
+
+
+### Features
+
+* add script to wait for pr to be mergable and then set in local car ([133f3a1](https://github.com/ldetmer/java-cloud/commit/133f3a14c2504ec728eddaeb42004f201196a2d4))
+* add script to wait for pr to be mergable and then set in local car ([070b350](https://github.com/ldetmer/java-cloud/commit/070b3505546a05dd90b2cc33fcda587e8add2212))
+* add script to wait for PR to merge ([6edea08](https://github.com/ldetmer/java-cloud/commit/6edea08e1eaa705fb904d4561494f678235b181a))
+* add script to wait for PR to merge ([3101303](https://github.com/ldetmer/java-cloud/commit/3101303bc6c57ebc7a6b2c18c6f3cc9049abf30d))
+* Update ConnectionServiceClient.java ([54a077e](https://github.com/ldetmer/java-cloud/commit/54a077ebe74c39b3969617781a11d29d9bd00c28))
+* Update ConnectionServiceClient.java ([5da6606](https://github.com/ldetmer/java-cloud/commit/5da660683326ac2e06e1eca8e2863eb8d5a7a89c))
+* Update ConnectionServiceClient.java ([6282b9a](https://github.com/ldetmer/java-cloud/commit/6282b9a145cca5605977c1d9c5de4f38d271d893))
+
+
+### Bug Fixes
+
+* Update auto-merge.sh ([659c572](https://github.com/ldetmer/java-cloud/commit/659c572db8eb82d32f913af7c583d9c80efd93f9))
+* Update auto-merge.sh ([9d965f7](https://github.com/ldetmer/java-cloud/commit/9d965f70739bc3ad7ddf8f8bbd19525c1014416a))
+* Update auto-merge.sh ([d4c123e](https://github.com/ldetmer/java-cloud/commit/d4c123ef99377defde4ff431d7689f1fdbadea46))
+* Update auto-merge.sh ([260e433](https://github.com/ldetmer/java-cloud/commit/260e433aa8f2fa934bf4f7101f82679ce45c987c))
+* Update pr-ready.sh ([b00fa70](https://github.com/ldetmer/java-cloud/commit/b00fa70431b819f2f6e8d08eeab7b5488759be7e))
+* Update pr-ready.sh ([d9e4a91](https://github.com/ldetmer/java-cloud/commit/d9e4a91bcf5aa5bc74714ba5b1f6e7a02652e03d))
+* Update pr-ready.sh ([c7792db](https://github.com/ldetmer/java-cloud/commit/c7792db6549f679eb34f60d3190f86e77e6abd82))
+* Update pr-ready.sh ([eeb3d82](https://github.com/ldetmer/java-cloud/commit/eeb3d82f39b84ac2dd5833e0d3d414429ee0326d))
+* Update pr-ready.sh ([9ecb3a9](https://github.com/ldetmer/java-cloud/commit/9ecb3a94ec81666b7110967580a815f3dd17d088))
+* Update pr-ready.sh ([d845007](https://github.com/ldetmer/java-cloud/commit/d84500767896135d21c9017a19525243ad7c9f57))
+* Update pr-ready.sh ([2926add](https://github.com/ldetmer/java-cloud/commit/2926add22afdc803d9adb63554178815ebddf338))
+* Update pr-ready.sh ([63537ff](https://github.com/ldetmer/java-cloud/commit/63537ffb36502b9a851d784dbc82ffac2ae8a955))
+* Update pr-ready.sh ([738403c](https://github.com/ldetmer/java-cloud/commit/738403cf6a389f84f2d96d7060da54dd6dbd91e5))
+* Update pr-ready.sh ([d313609](https://github.com/ldetmer/java-cloud/commit/d31360969b747f37a4d2b9f6321dfd50f31eeddb))
+* Update pr-ready.sh ([7eb346b](https://github.com/ldetmer/java-cloud/commit/7eb346bd80f0f684696a78fc4a9cceaa97a84837))
+* Update pr-ready.sh ([50ed8e8](https://github.com/ldetmer/java-cloud/commit/50ed8e89eca49f3ae23a4c76c19d4ce77cf5df1a))
+* Update TetherClient.java ([4eaacf5](https://github.com/ldetmer/java-cloud/commit/4eaacf592c2a6cadfea0239eea0459add4d52f8c))
+* Update TetherClient.java ([2630c04](https://github.com/ldetmer/java-cloud/commit/2630c043ae54dd0c5a60523556f8ba75963379dc))
+* Update wait-for-merge.sh ([7ee6d63](https://github.com/ldetmer/java-cloud/commit/7ee6d636da53af3f75d549dda9e47d7dd53af24f))
+* Update wait-for-merge.sh ([9fa73a8](https://github.com/ldetmer/java-cloud/commit/9fa73a80a428cdf6515766f88a4fc86a715f8d3c))
+* Update wait-for-merge.sh ([5a4b54d](https://github.com/ldetmer/java-cloud/commit/5a4b54d2dc7a66eb0e45852ad16fd8804759fff1))
+* Update wait-for-merge.sh ([04be137](https://github.com/ldetmer/java-cloud/commit/04be1376754e14990c661e9bd44e6367790464bb))
+
 ## [1.51.0](https://github.com/ldetmer/java-cloud/compare/v1.50.0...v1.51.0) (2024-12-30)
 
 
