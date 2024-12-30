@@ -23,7 +23,6 @@ check_pr_status() {
   else
     echo "Pull request is not merged. Checking again in 60 seconds..."
     sleep 60
-    return 1
   fi
 }
 
