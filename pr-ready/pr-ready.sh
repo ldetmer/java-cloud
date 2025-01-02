@@ -50,7 +50,7 @@ TOKEN=$1
 REPO=$2
 DESC=$3
 
-release_prs=$(get_release_prs "$TOKEN" "$REPO" "$DESC"); do
+release_prs=$(get_release_prs "$TOKEN" "$REPO" "$DESC")
 
 # Iterate over PR numbers and attempt to merge them
 for pr_number in $release_prs; do
