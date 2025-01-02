@@ -7,10 +7,10 @@ get_release_prs() {
     local desc=$3
     while true; do
       local response=$(curl -s -H "Authorization: token $token" -H "Accept: application/vnd.github+json" "https://api.github.com/repos/$repo/pulls")
-      # Extract PR numbers from the response JSON
-      echo "$response" | jq -r '.[] | select(.title | startswith("'$desc'")) | .number'
+      # Extract PR numbers from the response JSON 
+      echo "$response" | jq --arg desc "$desc" -r '.[] | select(.title | startswith($desc)) | .number'
 
-      PR_NUMBER=$(echo "$response" | jq -r '.[] | select(.title | startswith("'$desc'")) | .number')
+      PR_NUMBER=$(echo "$response" | jq --arg desc "$desc" -r '.[] | select(.title | startswith($desc)) | .number')
 
       if [ -n "$PR_NUMBER" ]; then
         echo "$PR_NUMBER"
