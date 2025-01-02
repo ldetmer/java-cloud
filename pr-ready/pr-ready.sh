@@ -5,20 +5,21 @@ get_release_prs() {
     local token=$1
     local repo=$2
     local desc=$3
-    local response=$(curl -s -H "Authorization: token $token" -H "Accept: application/vnd.github+json" "https://api.github.com/repos/$repo/pulls")
-    # Extract PR numbers from the response JSON
-    echo "$response" | jq -r '.[] | select(.title | startswith("$desc")) | .number'
+    while true; do
+      local response=$(curl -s -H "Authorization: token $token" -H "Accept: application/vnd.github+json" "https://api.github.com/repos/$repo/pulls")
+      # Extract PR numbers from the response JSON
+      echo "$response" | jq -r '.[] | select(.title | startswith("'$desc'")) | .number'
 
-    PR_NUMBER=$(echo "$response" | jq -r '.[] | select(.title | startswith("$desc")) | .number')
+      PR_NUMBER=$(echo "$response" | jq -r '.[] | select(.title | startswith("'$desc'")) | .number')
 
-    if [ -n "$PR_NUMBER" ]; then
-      echo "$PR_NUMBER"
-      return 0  # PR found
-    else
-      echo "No PR found starting with '$desc'. Trying again in 60 seconds..."
-      sleep 60
-      return 1  # PR not found
-    fi
+      if [ -n "$PR_NUMBER" ]; then
+        echo "$PR_NUMBER"
+        return 0  # PR found
+      else
+        #echo "No PR found starting with '$desc'. Trying again in 60 seconds..."
+        sleep 60
+      fi
+    done
 }
 
 # Function to merge a PR
@@ -49,7 +50,7 @@ TOKEN=$1
 REPO=$2
 DESC=$3
 
-release_prs=$(get_release_prs "$TOKEN" "$REPO" "$DESC")
+release_prs=$(get_release_prs "$TOKEN" "$REPO" "$DESC"); do
 
 # Iterate over PR numbers and attempt to merge them
 for pr_number in $release_prs; do
