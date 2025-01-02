@@ -1,17 +1,17 @@
 # Format:
 # module:released-version:current-version
 
-google-cloud-java:1.54.0:1.55.0-SNAPSHOT
-google-cloud-apigee-connect:2.60.0:2.61.0-SNAPSHOT
-grpc-google-cloud-apigee-connect-v1:2.60.0:2.61.0-SNAPSHOT
-proto-google-cloud-apigee-connect-v1:2.60.0:2.61.0-SNAPSHOT
-google-cloud-apigee-registry:2.60.0:2.61.0-SNAPSHOT
-proto-google-cloud-apigee-registry-v1:2.60.0:2.61.0-SNAPSHOT
-grpc-google-cloud-apigee-registry-v1:2.60.0:2.61.0-SNAPSHOT
-google-cloud-monitoring-dashboard:2.60.0:2.61.0-SNAPSHOT
-grpc-google-cloud-monitoring-dashboard-v1:2.60.0:2.61.0-SNAPSHOT
-proto-google-cloud-monitoring-dashboard-v1:2.60.0:2.61.0-SNAPSHOT
-google-cloud-monitoring:2.60.0:2.61.0-SNAPSHOT
-grpc-google-cloud-monitoring-v3:2.60.0:2.61.0-SNAPSHOT
-proto-google-cloud-monitoring-v3:2.60.0:2.61.0-SNAPSHOT
+google-cloud-java:1.55.0:1.55.0
+google-cloud-apigee-connect:2.61.0:2.61.0
+grpc-google-cloud-apigee-connect-v1:2.61.0:2.61.0
+proto-google-cloud-apigee-connect-v1:2.61.0:2.61.0
+google-cloud-apigee-registry:2.61.0:2.61.0
+proto-google-cloud-apigee-registry-v1:2.61.0:2.61.0
+grpc-google-cloud-apigee-registry-v1:2.61.0:2.61.0
+google-cloud-monitoring-dashboard:2.61.0:2.61.0
+grpc-google-cloud-monitoring-dashboard-v1:2.61.0:2.61.0
+proto-google-cloud-monitoring-dashboard-v1:2.61.0:2.61.0
+google-cloud-monitoring:2.61.0:2.61.0
+grpc-google-cloud-monitoring-v3:2.61.0:2.61.0
+proto-google-cloud-monitoring-v3:2.61.0:2.61.0
 
